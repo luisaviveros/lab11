@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#personajes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.personaje {
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+}
+
+.personaje__nombre {
+    color: red;
+}
+
+.personaje__imagen {
+    width: 200px;
+    height: 200px;
+}
